@@ -1,0 +1,38 @@
+{
+    "FreightFrenzy": {
+        "name": "Freight Frenzy",
+        "year": 2021,
+        "span": "2021-2022",
+        "number": 6,
+        "team": {
+            "14278": {
+                "name": "Xeo",
+                "bot": "https://imgur.com/a/gJRE1gs"
+            }
+        }
+    },
+    "UltimateGoal": {
+        "name":"Ultimate Goal",
+        "year": 2020,
+        "span": "2020-2021",
+        "number": 6,
+        "team": {
+            "14278":{
+                "name": "Xeo",
+                "bot": "https://imgur.com/a/2vOFlMC"
+            }
+        }
+    },
+    "Skystone": {
+        "name": "Skystone",
+        "year": 2019,
+        "span": "2019-2020",
+        "number" : 4,
+        "team": {
+            "14278": {
+                "name": "Xeo",
+                "bot": "https://youtu.be/Hy8iqii9ATs"
+            }
+        }
+    }
+}
