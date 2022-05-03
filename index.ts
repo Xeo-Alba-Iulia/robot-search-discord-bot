@@ -56,23 +56,40 @@ client.on('interactionCreate', async (interaction) => {
     if (commandName === 'robot') {
         const season = options.getString('season')!
         const teamnr = options.getNumber('team')!
-        
 
-        if (season == data.FreightFrenzy.number || season == data.FreightFrenzy.year || season == data.FreightFrenzy.span || season == data.FreightFrenzy.name) {
+        const FreightFrenzy = data.FreightFrenzy.number || season == data.FreightFrenzy.year || season == data.FreightFrenzy.span || season == data.FreightFrenzy.name
+        const UltimateGoal = season == data.UltimateGoal.number || season == data.UltimateGoal.year || season == data.UltimateGoal.span || data.UltimateGoal.name
+        const Skystone = season == data.Skystone.number || season == data.Skystone.year || season == data.Skystone.span || season == data.Skystone.name
+        const RoverRuckus = season == data.RoverRuckus.number || season == data.RoverRuckus.year || season == data.RoverRuckus.span || season == data.RoverRuckus.name
+        const VelocityVortex = season == data.VelocityVortex.number || season == data.VelocityVortex.year || season == data.VelocityVortex.span || season == data.VelocityVortex.name
+
+        if (FreightFrenzy) {
             interaction.reply({
                 content: `Here: ${data.FreightFrenzy.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }
-        else if (season == data.UltimateGoal.number || season == data.UltimateGoal.year || season == data.UltimateGoal.span || data.UltimateGoal.name) {
+        else if (UltimateGoal) {
             interaction.reply({
                 content: `Here: ${data.UltimateGoal.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }
-        else if (season == data.Skystone.number || season == data.Skystone.year || season == data.Skystone.span || season == data.Skystone.name) {
+        else if (Skystone) {
             interaction.reply({
                 content: `Here: ${data.Skystone.team[teamnr].bot}`,
+                ephemeral: false,
+            })
+        }
+        else if (RoverRuckus) {
+            interaction.reply({
+                content: `Here: ${data.RoverRuckus.team[teamnr].bot}`,
+                ephemeral: false,
+            })
+        }
+        else if (VelocityVortex) {
+            interaction.reply({
+                content: `Here: ${data.VelocityVortex.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }

@@ -34,5 +34,17 @@
                 "bot": "https://youtu.be/Hy8iqii9ATs"
             }
         }
+    },
+    "RoverRuckus": {
+        "name": "RoverRuckus",
+        "year": 2018,
+        "span": "2018-2019",
+        "number" : 3,
+        "team": {
+            "14278": {
+                "name": "Xeo",
+                "bot": "https://youtu.be/Hy8iqii9ATs"
+            }
+        }
     }
 }
