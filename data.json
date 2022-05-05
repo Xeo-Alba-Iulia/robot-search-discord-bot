@@ -95,5 +95,17 @@
                 "bot": "https://imgur.com/a/Yz9y76Y"
             }
         }
+    },
+    "VelocityVortex": {
+        "name": "VelocityVortex",
+        "year": 2017,
+        "span": "2017-2018",
+        "number": 2,
+        "team": {
+            "14278": {
+                "name": "Xeo",
+                "bot": "yet to be found"
+            }
+        }
     }
 }

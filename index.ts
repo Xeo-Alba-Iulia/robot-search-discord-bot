@@ -26,7 +26,7 @@ client.on('ready', () => {
 
     commands?.create({
         name: 'robot',
-        description: 'Vezi un robot Xeo din sezonul precizat',
+        description: 'See a robot from the specified team and season',
         options: [
             {
                 name: 'season',
@@ -57,8 +57,8 @@ client.on('interactionCreate', async (interaction) => {
         const season = options.getString('season')!
         const teamnr = options.getNumber('team')!
 
-        const FreightFrenzy = data.FreightFrenzy.number || season == data.FreightFrenzy.year || season == data.FreightFrenzy.span || season == data.FreightFrenzy.name
-        const UltimateGoal = season == data.UltimateGoal.number || season == data.UltimateGoal.year || season == data.UltimateGoal.span || data.UltimateGoal.name
+        const FreightFrenzy = season == data.FreightFrenzy.number || season == data.FreightFrenzy.year || season == data.FreightFrenzy.span || season == data.FreightFrenzy.name
+        const UltimateGoal = season == data.UltimateGoal.number || season == data.UltimateGoal.year || season == data.UltimateGoal.span || season ==data.UltimateGoal.name
         const Skystone = season == data.Skystone.number || season == data.Skystone.year || season == data.Skystone.span || season == data.Skystone.name
         const RoverRuckus = season == data.RoverRuckus.number || season == data.RoverRuckus.year || season == data.RoverRuckus.span || season == data.RoverRuckus.name
         const VelocityVortex = season == data.VelocityVortex.number || season == data.VelocityVortex.year || season == data.VelocityVortex.span || season == data.VelocityVortex.name
