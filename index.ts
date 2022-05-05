@@ -65,31 +65,31 @@ client.on('interactionCreate', async (interaction) => {
 
         if (FreightFrenzy) {
             interaction.reply({
-                content: `Here: ${data.FreightFrenzy.team[teamnr].bot}`,
+                content: `Here is ${data.FreightFrenzy.team[teamnr].name}'s robot: ${data.FreightFrenzy.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }
         else if (UltimateGoal) {
             interaction.reply({
-                content: `Here: ${data.UltimateGoal.team[teamnr].bot}`,
+                content: `Here is ${data.UltimateGoal.team[teamnr].name}'s robot: ${data.UltimateGoal.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }
         else if (Skystone) {
             interaction.reply({
-                content: `Here: ${data.Skystone.team[teamnr].bot}`,
+                content: `Here is ${data.Skystone.team[teamnr].name}'s robot: ${data.Skystone.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }
         else if (RoverRuckus) {
             interaction.reply({
-                content: `Here: ${data.RoverRuckus.team[teamnr].bot}`,
+                content: `Here is ${data.RoverRuckus.team[teamnr].name}'s robot: ${data.RoverRuckus.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }
         else if (VelocityVortex) {
             interaction.reply({
-                content: `Here: ${data.VelocityVortex.team[teamnr].bot}`,
+                content: `Here is ${data.VelocityVortex.team[teamnr].name}'s robot: ${data.VelocityVortex.team[teamnr].bot}`,
                 ephemeral: false,
             })
         }

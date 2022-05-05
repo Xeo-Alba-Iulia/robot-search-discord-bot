@@ -8,16 +8,65 @@
             "14278": {
                 "name": "Xeo",
                 "bot": "https://imgur.com/a/gJRE1gs"
+            },
+            "4029": {
+                "name": "Name 2 Bits and A Byte",
+                "bot": "https://youtu.be/IHBiNINXK7g"
+            },
+            "16633": {
+                "name": "Bots in black",
+                "bot": "https://youtu.be/zIiFYHktAfQ"
+            },
+            "8813": {
+                "name": "The Winter Soldiers",
+                "bot": "https://cad.onshape.com/documents/22233be120f58b5bf53390c4/w/1e81a6d6937f2e741c6d5de8/e/2eb299c02ce2186388ae6ad1"
+            },
+            "12611": {
+                "name": "TechNova",
+                "bot": "https://youtu.be/KUt3STMCEfU"
+            },
+            "3708": {
+                "name":"Iron eagles Optimus",
+                "bot":"https://youtu.be/HMo8VkKpHXc"
+            },
+            "12928": {
+                "name": "Lightsabers",
+                "bot": "https://youtu.be/c42wVVUqimo"
+            },
+            "11260": {
+                "name": "Up a Creek",
+                "bot": "https://youtu.be/kf4MneCbaU0"
+            },
+            "7172": {
+                "name": "Technical Difficulties",
+                "bot": "https://youtu.be/c_Lumfw_asU"
+            },
+            "18438": {
+                "name": "Wolfpack Machina",
+                "bot": "https://youtu.be/Mqg5WOcRsXE"
+            },
+            "18236": {
+                "name": "Robowaves",
+                "bot": "https://youtu.be/rnSUB-pGzzs"
+            },
+            "17713": {
+                "name": "Delta Force",
+                "bot": "https://youtu.be/qnAq9K8zn3o"
+            },
+            "14126": {
+                "name": "Fibonacci",
+                "bot": "https://youtu.be/tF8znGHD2OA"
             }
+
         }
     },
     "UltimateGoal": {
-        "name":"Ultimate Goal",
+        "name": "Ultimate Goal",
         "year": 2020,
         "span": "2020-2021",
-        "number": 6,
+        "number": 5,
         "team": {
-            "14278":{
+            "14278": {
                 "name": "Xeo",
                 "bot": "https://imgur.com/a/2vOFlMC"
             }
@@ -27,7 +76,7 @@
         "name": "Skystone",
         "year": 2019,
         "span": "2019-2020",
-        "number" : 4,
+        "number": 4,
         "team": {
             "14278": {
                 "name": "Xeo",
@@ -39,11 +88,11 @@
         "name": "RoverRuckus",
         "year": 2018,
         "span": "2018-2019",
-        "number" : 3,
+        "number": 3,
         "team": {
             "14278": {
                 "name": "Xeo",
-                "bot": "https://youtu.be/Hy8iqii9ATs"
+                "bot": "https://imgur.com/a/Yz9y76Y"
             }
         }
     }
